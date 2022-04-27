@@ -11,7 +11,10 @@ The goal is to build a neural network model for pricing European Basket [options
 For that, we first simulate the data, build the model, train the model, evaluate the model, compare to Monte carlo model.
 
 
+### Steps:
 
+First, we generate the data in the [Data_Generating notebook](https://github.com/Merhbene/Basket-pricing-using-Neural-Networks/blob/main/Data_Generating.ipynb).
+Then we build and train a neural network in [NN_model_for_Basket_Pricing notebook](https://github.com/Merhbene/Basket-pricing-using-Neural-Networks/blob/main/NN_model_for_Basket_Pricing.ipynb)
 
 
 
