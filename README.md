@@ -12,7 +12,7 @@ The goal is to build a neural network model for [pricing](https://www.investoped
 ### Steps:
 
 1. Generate and pricing a Basket options data : [Data_Generating](https://github.com/Merhbene/Basket-pricing-using-Neural-Networks/blob/main/Data_Generating.ipynb).
-2. Build, train and compare Neural Network model with Monte carlo simulations [NN_model_for_Basket_Pricing](https://github.com/Merhbene/Basket-pricing-using-Neural-Networks/blob/main/NN_model_for_Basket_Pricing.ipynb)
+2. Build, train and compare Neural Network model with Monte carlo simulations: [NN_model_for_Basket_Pricing](https://github.com/Merhbene/Basket-pricing-using-Neural-Networks/blob/main/NN_model_for_Basket_Pricing.ipynb)
 
 **In this project:**
 * We deal with European basket call.
@@ -20,6 +20,8 @@ The goal is to build a neural network model for [pricing](https://www.investoped
 * We consider 4 asset basket options and 10000 sampels to train the model and we save that in [Basket_pricing_data.csv](https://github.com/Merhbene/Basket-pricing-using-Neural-Networks/blob/main/Basket_pricing_data.csv) file. We can consider any asset numbers since the code is  flexible.
 
 * We consider that asset prices are already weighted.
+
+* The results will be discussed in the notebooks.
 
 ### Bibliography :
 * [Machine Learning methods for option pricing and model calibration](https://canopee-group.com/wp-content/uploads/2020/12/Machine-Learning-methods-Coperneec.pdf) 
