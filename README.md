@@ -5,8 +5,15 @@
 The client wants to explore novel methodologies for accelerating the pricing of exotic derivatives. 
 
 ### Goal: 
+ANN approach to reduce the computing time of pricing
+financial options
 
-The goal is to build a neural network model for [pricing](https://www.investopedia.com/articles/optioninvestor/07/options_beat_market.asp#:~:text=These%20include%20the%20current%20stock,market%20value%20of%20an%20option) European [Basket options](https://www.investopedia.com/terms/b/basketoption.asp) under [Black-Scholes](https://www.investopedia.com/terms/b/blackscholes.asp) assumptions and compare the prices with [Monte-Carlo](https://www.goddardconsulting.ca/option-pricing-monte-carlo-index.html) simulations.
+We test the ANN approach on
+three different solvers, including the closed-form solution for the Black-Scholes equation
+
+The goal is to build and train a neural network model for [pricing](https://www.investopedia.com/articles/optioninvestor/07/options_beat_market.asp#:~:text=These%20include%20the%20current%20stock,market%20value%20of%20an%20option) European [Basket options](https://www.investopedia.com/terms/b/basketoption.asp) under [Black-Scholes](https://www.investopedia.com/terms/b/blackscholes.asp) assumptions and compare the results with other traditional numerical solver.
+
+
 
 
 ### Steps:
@@ -20,6 +27,7 @@ The goal is to build a neural network model for [pricing](https://www.investoped
 * We consider 4 asset basket options and 10000 sampels to train the model and we save that in [Basket_pricing_data.csv](https://github.com/Merhbene/Basket-pricing-using-Neural-Networks/blob/main/Basket_pricing_data.csv) file. We can consider any asset numbers since the code is  flexible (For 1 asset case, we set nb_assets=1)
 
 * We consider that asset prices are already weighted.
+* We use [Monte-Carlo](https://www.goddardconsulting.ca/option-pricing-monte-carlo-index.html) simulations to compare the performance.
 
 
 ### Conclusion:
