@@ -19,7 +19,7 @@ The goal is to build and train a neural network model for [pricing](https://www.
 ### Steps:
 
 1. Generate and pricing a Basket options data : [Data_Generating](https://github.com/Merhbene/Basket-pricing-using-Neural-Networks/blob/main/Data_Generating.ipynb).
-2. Build, train and compare Neural Network model with Monte carlo simulations: [NN_model_for_Basket_Pricing](https://github.com/Merhbene/Basket-pricing-using-Neural-Networks/blob/main/NN_model_for_Basket_Pricing.ipynb)
+2. Build, train and compare Neural Network model with Monte carlo simulations: [NN_model](https://github.com/Merhbene/Basket-pricing-using-Neural-Networks/blob/main/NN_model%20.ipynb)
 
 **In this project:**
 * We deal with European basket call.
