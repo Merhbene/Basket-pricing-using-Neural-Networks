@@ -17,16 +17,35 @@ The goal is to build a neural network model for [pricing](https://www.investoped
 **In this project:**
 * We deal with European basket call.
 
-* We consider 4 asset basket options and 10000 sampels to train the model and we save that in [Basket_pricing_data.csv](https://github.com/Merhbene/Basket-pricing-using-Neural-Networks/blob/main/Basket_pricing_data.csv) file. We can consider any asset numbers since the code is  flexible.
+* We consider 4 asset basket options and 10000 sampels to train the model and we save that in [Basket_pricing_data.csv](https://github.com/Merhbene/Basket-pricing-using-Neural-Networks/blob/main/Basket_pricing_data.csv) file. We can consider any asset numbers since the code is  flexible (For 1 asset case, we set nb_assets=1)
 
 * We consider that asset prices are already weighted.
 
-* The results will be discussed in the notebooks.
+
+### Conclusion:
+
+The results in NN_model Notebook, shows that, under Black-Scholes assumptions, Neural Network approach reduces the computing time of basket options pricing compared to Monte Carlo approach.
+
+This means, particularly for asset price processes leading to much more
+time-consuming computations, that we are able to provide a highly efficient approximation technique
+by means of the Neural Networks.
+
+Furthermore, The model accuracy can be further improved, for example, by using different parameters or more complex NN architectures.
+
+Although we focus on European call options that holds the volatility constant in this work, it should be possible to extend the
+approach to pricing more complex options, with the Heston stochastic volatility model.
+
+
+
+
+
 
 ### Bibliography :
 * [Machine Learning methods for option pricing and model calibration](https://canopee-group.com/wp-content/uploads/2020/12/Machine-Learning-methods-Coperneec.pdf) 
 * [Option Pricing with Deep Learning](https://cs230.stanford.edu/projects_fall_2019/reports/26260984.pdf)
 * [Numerical methods for option pricing](https://github.com/shrentseng/Numerical-methods-for-option-pricing/blob/main/Monte%20Carlo%20simulation%20option%20pricing.ipynb)
+* [Pricing options and computing implied volatilities
+using neural networks](https://arxiv.org/pdf/1901.08943.pdf)
 
 
 
