@@ -19,7 +19,7 @@ The goal is to build and train a neural network model for [pricing](https://www.
 ### Steps:
 
 1. Generate and pricing a Basket options data : [Data_Generating](https://github.com/Merhbene/Basket-pricing-using-Neural-Networks/blob/main/Data_Generating.ipynb).
-2. Build, train and compare Neural Network model with Monte carlo simulations: [NN_model](https://github.com/Merhbene/Basket-pricing-using-Neural-Networks/blob/main/NN_model%20.ipynb)
+2. Build, train and compare Neural Network model with Monte carlo simulations: [NN_model](https://github.com/Merhbene/Basket-pricing-using-Neural-Networks/blob/main/NN_model%20.ipynb).
 
 **In this project:**
 * We deal with European basket call.
@@ -28,6 +28,7 @@ The goal is to build and train a neural network model for [pricing](https://www.
 
 * We consider that asset prices are already weighted.
 * We use [Monte-Carlo](https://www.goddardconsulting.ca/option-pricing-monte-carlo-index.html) simulations to compare the performance.
+* Further details in the notebooks.
 
 
 ### Conclusion:
