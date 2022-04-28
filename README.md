@@ -38,7 +38,7 @@ This means, particularly for asset price processes leading to much more
 time-consuming computations, that we are able to provide a highly efficient approximation technique
 by means of the Neural Networks.
 
-Furthermore, The model accuracy can be further improved, for example, by using different parameters or more complex NN architectures.
+Furthermore, The model accuracy can be further improved, for example, by optimizing the parameters using Grid Search.
 
 Although we focus on European call options that holds the volatility constant in this work, it should be possible to extend the
 approach to pricing more complex options, with the Heston stochastic volatility model.
